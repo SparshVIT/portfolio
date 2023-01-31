@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+            background-color: bisque;
+        }
+        .nav{
+            background-color: maroon;
+            width: 100%;
+        }
+        .nav img{
+            /* background-color: bisque; */
+            width: 50px;
+            float: left;
+            padding: 15px
+            
+        }
+        .nav ul{
+            overflow: auto;
+            list-style: none;
+        }
+        .nav ul li{
+            float: left;
+            padding: 20px;
+            margin: 10px;
+            margin-left: 26px;
+        }
+        a{
+            text-decoration: none;
+            color: bisque;
+        }
+        .imag{
+            text-align: center;
+        }
+        .imag img{
+            width: 200px;
+            border-radius: 50%;
+
+        }
+        .greetings{
+            font-family: 'Aboreto', cursive;
+            text-align: center;
+            font-weight: bold;
+            color: maroon;
+        }
+        .about{
+            text-align: center;
+            width: 500px;
+            margin: auto;
+            background-color: maroon;
+            padding: 10px;
+            box-sizing: border-box;
+            color: bisque;
+            border: 2px solid ;
+            
+        }
+        .box{
+            display: inline-block;
+            border: 2px solid maroon ;
+            margin: 18px;
+            box-sizing: border-box;
+            width: 30%;
+            text-align: center;
+            background-color: brown;
+            color: antiquewhite;
+            overflow: auto;
+        }
+        .box img{
+
+            width: 250px;
+        }
+        #box4{
+            margin: auto;
+            width: 400px;
+            text-align: center;
+            border: 2px solid maroon ;
+            background-color: brown;
+            color: antiquewhite;
+            
+        }
+        #projects{
+            text-align: center;
+            color: maroon;
+        }
+
+        .skills{
+            width: 100%;
+            background-color: maroon;
+            margin: 20px;
+            text-align: center;
+            color: beige;
+
+        }
+        .skills ul{
+            overflow: auto;
+        }
+        .skills ul li{
+            float: left;
+            list-style: none;
+            margin: 10px;
+            margin-left: 140px;
+        }
+        hr
+{
+border:solid 1px maroon;
+width: 96%;
+color: #FFFF00;
+height: 1px;
+
+}
+.contactme{
+    text-align: center;
+    background-color: maroon;
+    color: bisque;
+    padding: 2px;
+}
+.contactme a{
+    color: bisque;
+    
+    
+}
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwNEvJqDayIhts5hntPjyaZjQxRcaXesXlHKx477dDWuTkel-pTzrEGAf1MoOtE_-WAZU&usqp=CAU" alt="">
+            </div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
+            <li><a href="#contact">Resume</a></li>
+        </ul>
+        
+    </nav>
+    <div class="imag">
+        <img src="https://media.licdn.com/dms/image/C4D03AQEIc2j_-KIJXA/profile-displayphoto-shrink_800_800/0/1657530227162?e=1680739200&v=beta&t=vK9riTmhesu9mfVaqJIiJjkL-_bvUvsCwNjfLpqz2ZY" alt="">
+    </div>
+    <div class="greetings">
+        <p>Hello All &#128075</p>
+    </div>
+    
+    <div class="about" id="aboutme">
+        <h3>About me</h3>
+        <p>Hello, I'm Sparsh Jain, a 3rd-year student at VIT Bhopal University. I have a passion for technology and specialize in Data Science, Machine Learning, Java, Flask, and Python. I'm eager to put my skills to the test in a software engineering role. I'm proud to have solved 180 coding questions on Geeks for Geeks and 100 questions on LeetCode, and I've also achieved great success as part of a team, securing an under 50 rank in the Rakuten hackathon. I'm confident that my skills and achievements make me a strong candidate for software engineering opportunities.</p>
+    </div>
+    <hr>
+    <div class="container" id="projects">
+        <h3 id="projects">Projects</h3>
+        <div class="box" id="box1">
+            <img src="https://imgix-prod.sgs.com/-/media/sgscorp/images/temporary/golden-wheat-grass.cdn.en.1.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0&fp-y=0&fp-z=1&w=645&h=403" alt="">
+            <h3>Crop Recommendation System</h3>
+            <p>This is the group project, which we made with 4 other people. This project is the part of the Hackathon, where we have used the machine learning and applied its algorithms on the dataset, we have also made the frontend which we have used to connect it to the machine learning model through flask. </p>
+
+        </div>
+        <div class="box" id="box2">
+            <img src="https://as1.ftcdn.net/v2/jpg/02/47/74/26/1000_F_247742608_9CMiemdV2C3AuaQunt2OPRs2yx3J7Ch6.jpg" alt="">
+            <h3>Admission Prediction</h3>
+            <p>This is also the project which is a part of our college project. This is alos a team project where we have made the admission prediction systems on the basis of the certain paprameters and the data. We have applied machine learning algorithms to predict the data.</p>
+        </div>
+        <div class="box" id="box3">
+            <img src="https://assets.skyfilabs.com/images/blog/loan-prediction-using-machine-learning.webp" alt="">
+            <h3>Loan Defaulter Prediction</h3>
+            <p>This project is also based on the machine learning and, the objective of this project is to predict that the loan will be reported defaulted or not. This project is also connected to the frontend with simple HTML File through the Flask. The algorithms applied mainly is of classification. as it is classification based project</p>
+        </div>
+        <div class="box1" id="box4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnSRGYAfbpx8-rIGOaofkkkOVpf3sVbY3mBRSQc9rkWp2kv0JJgDLRhmusjCBhZHYbHbk&usqp=CAU" alt="">
+            <h3>Slot Allocation System</h3>
+            <p>This project is an individual project made for the scheduling of teachers time table in our college. The project is mainly java, android and data structures and SQL based. Here the whole system of vit time table has been kept in mind while making this. This project works in a manner as it can limit the teachers time to one time either morning or evening. It can make the complex tasks of scheduling easy. </p>
+        </div>
+    </div>
+    <hr>
+    <div class="skills">
+        <h3>Skills</h3>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Flask</li>
+            <li>Machine Learning</li>
+            <li>Data Science</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="contactme" id="contact">
+        <h3>Contact me</h3>
+        <p>Email- sparsh.jain2020@vitbhopal.ac.in</p>
+        <a href="https://www.linkedin.com/in/sparsh-jain-92a4a3227/"><i class="fa fa-linkedin-square"  style="font-size:24px"></i></a>
+        <a href="https://github.com/SparshVIT"><i class="fa fa-github-square"  style="font-size:24px"></i></a>
+
+    </div>
+</body>
+</html>
